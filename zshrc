@@ -93,7 +93,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias rm=/bin/rmtrash.sh
+# alias rm=/bin/rmtrash.sh
 
 eval `ssh-agent -s`
 /usr/bin/ssh-add ~/.ssh/id_rsa
