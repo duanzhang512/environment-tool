@@ -3,10 +3,11 @@
 echo "Run this script with root..."
 
 # 1. VIM
+apt install -f vim
 tar xmvf vim.tar.gz -C ~
 
 # 2. zsh
-apt install zsh
+apt install -f zsh
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 chsh -s /bin/zsh
